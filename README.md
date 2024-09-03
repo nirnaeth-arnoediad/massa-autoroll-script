@@ -1,5 +1,6 @@
 # massa-autoroll-script
 
+For linux based OS expecially Ubuntu.
 In order to make this script work, you need to install Massa Node with binary method.
 Create the script file and make it executable.
 
