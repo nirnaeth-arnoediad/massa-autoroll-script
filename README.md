@@ -5,7 +5,7 @@ Create the script file and make it executable.
 
 ```
 touch rollCheck.sh
-chmod +x rollcheck.sh
+chmod +x rollCheck.sh
 ```
 
 Then open it to configure. Change your massa client directory and wallet password acording to your setup. If you have more than one wallet uncomment the releated areas. you can increase the wallet count by following the same logic with first three.
