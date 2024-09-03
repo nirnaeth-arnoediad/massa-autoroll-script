@@ -8,7 +8,7 @@ touch rollCheck.sh
 chmod +x rollCheck.sh
 ```
 
-Then open it to configure. Change your massa client directory and wallet password acording to your setup. If you have more than one wallet uncomment the releated areas. you can increase the wallet count by following the same logic with first three.
+Then open it to configure. Change your massa client directory and wallet password acording to your setup. If you have more than one wallet uncomment the releated areas. You can increase the wallet count by following the same logic with first three.
 
 ```
 nano rollCheck.sh
@@ -88,14 +88,14 @@ fi
 #        "./massa-client" -p $wallet_password buy_rolls $wallet_address2 $possible_rolls2 0.01
 #        echo "$(date): $possible_rolls2 Rolls bought for $wallet_address2" >> /$HOME/rollCheckScript.log
 
-#fi
+# fi
 
-#if [[ "$candidate_balance3" -ge "$roll_cost" ]]; then
+# if [[ "$candidate_balance3" -ge "$roll_cost" ]]; then
 
 #       "./massa-client" -p $wallet_password buy_rolls $wallet_address3 $possible_rolls3 0.01
 #      echo "$(date): $possible_rolls3 Rolls bought for $wallet_address3" >> /$HOME/rollCheckScript.log
 
-#fi
+# fi
 ```
 
 After that include your script to cronjob to check periodically. For that type `crontab -e` and select `nano` for once.
